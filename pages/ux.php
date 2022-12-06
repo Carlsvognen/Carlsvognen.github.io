@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php include '../inc/header.php';
+
+?>
+
 <html lang='nb-NO'>
     <head>
         <meta charset='utf-8'>
@@ -6,7 +9,7 @@
         <meta name='description' content='En web ux game utdanningsteknologisk 
             design og developer portefølje av Carl Andreas Berge Bjørnseth.'>
         <title>
-            Carlsvognen - Portefølje av Carl Andreas Berge Bjørnseth UX web design
+           User Experience
         </title>
         <!--CSS, header--
         <link rel="stylesheet" type="text/css" href="styles/header.css">
@@ -16,18 +19,7 @@
     </head>
     <body>
         <header>
-            <h1>
-                Carl Andreas Berge Bjørnseth <br></be><span id='headerSpan'>Carlsvognen - En Portefølje</span>
-            </h1>
-            <nav class='global_nav'>
-                <ul>
-                    <li><a href='index.html'>Bio</a></li>
-                    <li><a href='pages/web.php' >Web Design</a></li>
-                    <li><a href='pages/ux.php' >UX</a></li>
-                    <li><a href='pages/figma.php' >Figma</a></li>
-                    <li><a href='pages/edu.php' >Edutainment</a></li>
-                </ul>
-            </nav>
+   
         </header>
         <main>
             <h1>Hello World</h1>
