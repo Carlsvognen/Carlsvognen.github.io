@@ -1,11 +1,15 @@
+<?php include 'inc/header.php'; ?>
+
 <!DOCTYPE html>
 <html>
     <head>
-
+        
     </head>
     <body>
         <header>
-            <?php include 'inc/header.php'; ?>
+            <?php 
+                echo $header;
+            ?>
         </header>
         <main>
             <h1>Hello World</h1>
