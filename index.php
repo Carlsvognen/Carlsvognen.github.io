@@ -1,9 +1,18 @@
 <?php include 'inc/header.php'; ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="nb-NO">
     <head>
-        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Portefølje
+        </title>
+        <!--CSS, header--
+        <link rel="stylesheet" type="text/css" href="styles/header.css">
+        !--Favicon--
+        <link rel="icon" type="image/svg" href="img/logo/hflogo2.svg"/>
+        -->
     </head>
     <body>
         <header>

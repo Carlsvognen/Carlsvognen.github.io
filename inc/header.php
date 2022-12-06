@@ -1,5 +1,5 @@
 <?php 
-    $header = "<h1>Carl Andreas Berge Bjørnseth <span id='headersoan'>Portefølje</span></h1>"; 
+    $header = "<h1>Carl Andreas Berge Bjørnseth <span id='headerSpan'>Portefølje</span></h1>"; 
     $globalnav = "<nav class='global_nav'>
                     <ul>
                         <li><a href='index.php'>Bio</a></li>
@@ -9,6 +9,5 @@
                         <li><a href='edu.php' >Edutainment</a></li>
                     </ul>
                 </nav>";
-    
     $header .= $globalnav;
     ?>
