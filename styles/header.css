@@ -12,9 +12,6 @@ html {
     flex-flow: columns; }
     /* line 15, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav ul li {
-      list-style-type: none; }
-      /* line 17, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
-      header nav ul li a {
-        color: white; } }
+      list-style-type: none; } }
 
 /*# sourceMappingURL=header.css.map */
