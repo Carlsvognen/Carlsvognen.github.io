@@ -12,6 +12,15 @@ html {
     flex-flow: columns; }
     /* line 15, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav ul li {
-      list-style-type: none; } }
+      list-style-type: none; }
+      /* line 17, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      header nav ul li a:link {
+        color: #E6E6E6; }
+      /* line 19, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      header nav ul li a:visited {
+        color: #E6E6E6; }
+      /* line 21, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      header nav ul li a:hover {
+        color: #7A9983; } }
 
 /*# sourceMappingURL=header.css.map */
