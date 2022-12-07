@@ -1,8 +1,11 @@
-@use 'base'
+@import '_base.sass'
 
+html
+	overflow-x: hidden
+    font: 100%
 
 //Mobile
-@media only screen and  (max-width: 1000px)
+@media only screen and (max-width: 1000px)
     header
         @include theme($theme: $color-theme-Darkgreen)
         display: flex
@@ -12,9 +15,8 @@
                 li
                     list-style-type: none
                     a
-                        
+                        color: white
                     a::hover
-
 
 
 

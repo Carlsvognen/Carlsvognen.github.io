@@ -1,15 +1,20 @@
-@use 'base' {}/* line 4, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
-* {
-  padding: 0;
-  margin: 0; }
+/* line 3, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+html {
+  overflow-x: hidden;
+    overflow-x-font: 100%; }
 
 @media only screen and (max-width: 1000px) {
-  /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+  /* line 9, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
   header {
+    background: #021F06;
+    color: #E6E6E6;
     display: flex;
     flex-flow: columns; }
-    /* line 19, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 15, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav ul li {
-      list-style-type: none; } }
+      list-style-type: none; }
+      /* line 17, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      header nav ul li a {
+        color: white; } }
 
 /*# sourceMappingURL=header.css.map */

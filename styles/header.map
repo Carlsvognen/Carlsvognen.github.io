@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "header.css",
 	"sources": [
-		"../compiler/header.sass"
+		"../compiler/header.sass",
+		"../compiler/_base.sass"
 	],
 	"sourcesContent": [
-		"@use 'base' {}\n\n//defualts\n* {\n    padding: 0;\n    margin: 0; }\n//html\n//  font-size: 100%\n//verflow-x: hidden\n//  @include theme\n\n//Mobile\n@media only screen and  (max-width: 1000px) {\n    header {\n        display: flex;\n        flex-flow: columns;\n        nav {\n            ul {\n                li {\n                    list-style-type: none;\n                    a {}\n\n                    a::hover {} } } } } }\n\n\n\n\n//Desctop\n"
+		"@import '_base.sass';\n\nhtml {\n\toverflow-x: hidden {\n    font: 100%; } }\n\n//Mobile\n@media only screen and (max-width: 1000px) {\n    header {\n        @include theme($theme: $color-theme-Darkgreen);\n        display: flex;\n        flex-flow: columns;\n        nav {\n            ul {\n                li {\n                    list-style-type: none;\n                    a {\n                        color: white; }\n                    a::hover {} } } } } }\n\n\n\n//Desctop\n",
+		"$font-heading: 'Century Gothic',serif;\n$font-heading-span: 'Baguet Script',script;\n$font-body: Helvetica,sans-serif;\n//$font-body-span: ,sans-serif\n\n$font-size-large: 4em;\n$font-size-normal: 2em;\n$font-size-small: 1em;\n$font-accent-color: #FF30F1;\n\n$color-theme-Darkgreen: #021F06;\n$color-Darkgreen-purpel: #5E116B;\n$color-Darkgreen-brown: #6B2411;\n\n//$color-primary-blue:\n//$color-primary-brown:\n\n@mixin theme($theme: $color-theme-Darkgreen) {\n    background: $theme;\n    color: #E6E6E6; }\n"
 	],
 	"names": [],
-	"mappings": "AAAA,IAAI,CAAJ,MAAI;AAGJ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC,GAAG;;AAOhB,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;EACrC,AAAA,MAAM,CAAC;IACH,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,OAAO,GAOa;;IATnC,AAKY,MALN,CAGF,GAAG,CACC,EAAE,CACE,EAAE,CAAC;MACC,eAAe,EAAE,IAAI,GAGR"
+	"mappings": ";AAEA,AAAA,IAAI,CAAC;EACJ,UAAU,EAAE,MAAM;IACf,eAAI,EAAE,IAAI,GAAK;;AAGnB,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;EACrC,AAAA,MAAM,CAAC;ICUP,UAAU,EARU,OAAO;IAS3B,KAAK,EAAE,OAAO;IDTV,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,OAAO,GAOa;;IAVnC,AAMY,MANN,CAIF,GAAG,CACC,EAAE,CACE,EAAE,CAAC;MACC,eAAe,EAAE,IAAI,GAGR;;MAV7B,AAQgB,MARV,CAIF,GAAG,CACC,EAAE,CACE,EAAE,CAEE,CAAC,CAAC;QACE,KAAK,EAAE,KAAK,GAAG"
 }
