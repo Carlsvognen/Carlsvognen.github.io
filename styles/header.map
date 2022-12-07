@@ -5,8 +5,8 @@
 		"../compiler/header.sass"
 	],
 	"sourcesContent": [
-		"@use 'base' {}\n\nheader {\n    include {} }\n"
+		"@use 'base' {}\n\n//defualts\n* {\n    padding: 0;\n    margin: 0; }\n//html\n//  font-size: 100%\n//verflow-x: hidden\n//  @include theme\n\n//Mobile\n@media only screen and  (max-width: 1000px) {\n    header {\n        display: flex;\n        flex-flow: columns;\n        nav {\n            ul {\n                li {\n                    list-style-type: none;\n                    a {}\n\n                    a::hover {} } } } } }\n\n\n\n\n//Desctop\n"
 	],
 	"names": [],
-	"mappings": "AAAA,IAAI,CAAJ,MAAI"
+	"mappings": "AAAA,IAAI,CAAJ,MAAI;AAGJ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC,GAAG;;AAOhB,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;EACrC,AAAA,MAAM,CAAC;IACH,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,OAAO,GAOa;;IATnC,AAKY,MALN,CAGF,GAAG,CACC,EAAE,CACE,EAAE,CAAC;MACC,eAAe,EAAE,IAAI,GAGR"
 }

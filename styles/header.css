@@ -1,3 +1,15 @@
-@use 'base' {}
+@use 'base' {}/* line 4, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+* {
+  padding: 0;
+  margin: 0; }
+
+@media only screen and (max-width: 1000px) {
+  /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+  header {
+    display: flex;
+    flex-flow: columns; }
+    /* line 19, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    header nav ul li {
+      list-style-type: none; } }
 
 /*# sourceMappingURL=header.css.map */

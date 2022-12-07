@@ -1,17 +1,10 @@
 @use 'base'
 
-//defualts
-*
-    padding: 0
-    margin: 0
-html
-    font-size: 100%
-	overflow-x: hidden
-    @include theme($theme: $color-theme-Darkgreen)
 
 //Mobile
 @media only screen and  (max-width: 1000px)
     header
+        @include theme($theme: $color-theme-Darkgreen)
         display: flex
         flex-flow: columns
         nav
@@ -21,7 +14,7 @@ html
                     a
                         
                     a::hover
-                        
+
 
 
 
