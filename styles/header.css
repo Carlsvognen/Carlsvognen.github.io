@@ -4,7 +4,7 @@
     background: #021F06;
     color: #E6E6E6;
     width: 100vw;
-    padding: 4vh 5vw 4vh 5vw;
+    padding: 4vh 3vw 4vh 3vw;
     display: flex;
     flex-flow: row; }
     /* line 21, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
@@ -32,17 +32,15 @@
     /* line 11, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header h1 {
       text-align: left; }
-    /* line 15, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
-    header nav ul li {
-      padding: 2vh 0 2vh 0; }
-    /* line 17, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav img {
       width: 5vw;
       height: 5vh; }
-    /* line 20, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 17, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuItem {
-      display: block; }
-    /* line 22, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      display: block;
+      padding: 2vh 0 2vh 0; }
+    /* line 20, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .hamburger {
       position: fixed;
       z-index: 5000;
@@ -51,10 +49,10 @@
       rigth: 1rem;
       padding: 4px;
       cursor: pointer; }
-    /* line 30, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 28, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .closeOpt {
       display: none; }
-    /* line 32, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 30, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .globalNav {
       position: fixed;
       transform: translateY(-100%);
@@ -65,7 +63,7 @@
       bottom: 0;
       z-index: 4999;
       padding-top: 4rem; }
-    /* line 43, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 41, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuVisability {
       transform: translateY(0); } }
 
