@@ -13,7 +13,7 @@ function toggleMenu() {
         openOpt.style.display = "block";
     } else {
         globalNav.classList.add("menuVisability");
-        closeIcon.style.display = "block";
+        closeOpt.style.display = "block";
         openOpt.style.display = "none";
     }
 }
