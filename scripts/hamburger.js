@@ -8,7 +8,7 @@ const closeOpt = document.querySelector(".closeOpt");
 
 function toggleMenu() {
     if (globalNav.classList.contains("menuVisability")){
-        navMenu.classList.remove("menuVisability");
+        globalNav.classList.remove("menuVisability");
         closeOpt.style.display = "none";
         openOpt.style.display = "block";
     } else {
