@@ -3,8 +3,6 @@
   header {
     background: #021F06;
     color: #E6E6E6;
-    display: flex;
-    flex-flow: row;
     width: 100vw;
     padding: 4vh 5vw 4vh 5vw; }
     /* line 23, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
@@ -47,9 +45,9 @@
       rigth: 0;
       bottom: 0;
       z-index: 4999; }
-      /* line 43, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
-      header .navMenu .menuItem {
-        display: block; }
+    /* line 43, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    header .menuItem {
+      display: block; }
     /* line 46, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuVisability {
       transform: transLateY(0); } }
