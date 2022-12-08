@@ -9,21 +9,6 @@
     header .hamburger {
       background-color: #021F06;
       color: #E6E6E6; }
-      /* line 32, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-      header .hamburger nav ul li {
-        list-style-type: none; }
-        /* line 34, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-        header .hamburger nav ul li a {
-          text-decoration: none; }
-        /* line 36, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-        header .hamburger nav ul li a:link {
-          color: #E6E6E6; }
-        /* line 38, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-        header .hamburger nav ul li a:visited {
-          color: #E6E6E6; }
-        /* line 40, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-        header .hamburger nav ul li a:hover {
-          color: #7A9983; }
     /* line 12, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuItem {
       display: block; }
