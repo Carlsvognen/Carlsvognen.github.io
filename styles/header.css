@@ -29,7 +29,8 @@
       background-color: "";
       border: none;
       hight: 2rem;
-      width: 2rem; }
+      width: 2rem;
+      rigth: 0; }
     /* line 33, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .closeOpt {
       display: none; }
