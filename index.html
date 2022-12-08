@@ -9,6 +9,8 @@
         <title>
             Carl's Space - Portefølje av Carl Andreas Berge Bjørnseth UX web design
         </title>
+        <!--CSS, Defaults-->
+        <link rel="stylesheet" type="text/css" href="styles/defaults.css">
         <!--CSS, header-->
         <link rel="stylesheet" type="text/css" href="styles/header.css">
         <!--Favicon-->
@@ -21,22 +23,24 @@
                 Carl Andreas Berge Bjørnseth <br>
                 <span id='headerSpan'>Carlsvognen - En Portefølje</span>
             </h1>
-            <nav class='global_nav'>
-                <ul>
-                    <li><a class='globalNavLink' href='index.html'>Carlsvognen</a></li>
-                    <li><a class='globalNavLink' href='pages/bio.html'>Bio</a></li>
-                    <li><a class='globalNavLink' href='pages/web.html'>Web Design</a></li>
-                    <li><a class='globalNavLink' href='pages/ux.html'>UX</a></li>
-                    <li><a class='globalNavLink' href='pages/edu.html'>Edutainment</a></li>
+            <nav class='globalNav'>
+                <ul class='navMenu'>
+                    <li><a class='menuItem' href='index.html'>Carlsvognen</a></li>
+                    <li><a class='menuItem' href='pages/bio.html'>Bio</a></li>
+                    <li><a class='menuItem' href='pages/web.html'>Web Design</a></li>
+                    <li><a class='menuItem' href='pages/ux.html'>UX</a></li>
+                    <li><a class='menuItem' href='pages/edu.html'>Edutainment</a></li>
                 </ul>
             </nav>
+            <button class='hamburger'>
+                <p class='openOpt'>Menu</p>
+                <p class='closeOpt'>Steng</p>
+            </button>
         </header>
         <main>
-            
             <h1>Hello World</h1>
             <p>I'm hosted with GitHub Pages.</p>
-        </main>
-        
+        </main>   
     </body>
 </html>
 
