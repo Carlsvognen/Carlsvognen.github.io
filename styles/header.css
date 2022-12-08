@@ -44,7 +44,10 @@
       rigth: 0;
       bottom: 0;
       z-index: 4999; }
-    /* line 45, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      /* line 44, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+      header .navMenu .menuItem {
+        display: block; }
+    /* line 47, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuVisability {
       transform: transLateY(0); } }
 
