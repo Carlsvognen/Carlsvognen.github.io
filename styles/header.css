@@ -41,12 +41,11 @@
       padding: 2vh 0 2vh 0; }
     /* line 20, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .hamburger {
+      justify-content: right;
+      right: 0;
       position: fixed;
       z-index: 5000;
       border: none;
-      top: 1rem;
-      rigth: 1rem;
-      padding: 4px;
       cursor: pointer; }
     /* line 28, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .closeOpt {
