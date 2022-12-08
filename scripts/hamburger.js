@@ -2,9 +2,9 @@
 
 const navMenu = document.querySelector(".navMenu");
 const menuItems = document.querySelectorAll(".menuItem");
-const hamburger = document.querySelectorAll(".hamburger");
-const openOpt = document.querySelectorAll(".openOpt");
-const closeOpt = document.querySelectorAll(".closeOpt");
+const hamburger = document.querySelector(".hamburger");
+const openOpt = document.querySelector(".openOpt");
+const closeOpt = document.querySelector(".closeOpt");
 
 function toggleMenu() {
     if (navMenu.classList.contains("menuVisability")){
