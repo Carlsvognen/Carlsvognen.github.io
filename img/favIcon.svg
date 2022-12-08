@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="470.41616"
-     inkscape:cy="484.7019"
+     inkscape:cx="468.45861"
+     inkscape:cy="484.82664"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -51,23 +51,23 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(18.630943,-19.922623)">
+     transform="translate(18.113007,-19.889618)">
     <circle
        style="fill:none;fill-opacity:0.972549;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:4;stroke-linecap:square;stroke-linejoin:round"
        id="path1439"
-       cx="113.39286"
-       cy="151.94643"
+       cx="113.9108"
+       cy="151.91342"
        r="130.0238" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:455.509px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:'Constantia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:11.3877"
-       x="-14.513795"
-       y="254.44751"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:325.702px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:'Constantia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:8.14252"
+       x="30.933784"
+       y="225.22818"
        id="text1443"><tspan
          sodipodi:role="line"
          id="tspan1441"
-         x="-14.513795"
-         y="254.44751"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:455.509px;font-family:Constantia;-inkscape-font-specification:'Constantia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:11.3877">c</tspan></text>
+         x="30.933784"
+         y="225.22818"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:325.702px;font-family:Constantia;-inkscape-font-specification:'Constantia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:8.14252">c</tspan></text>
   </g>
 </svg>
