@@ -4,11 +4,20 @@
 @media only screen and (max-width: 1000px)
     header
         @include theme($theme: $color-theme-Darkgreen)
-        //display: flex
-        //flex-flow: row
         width: 100vw
         padding: 4vh 5vw 4vh 5vw
-
+        nav
+            ul
+                li
+                    list-style-type: none
+                    a
+                        text-decoration: none
+                    a:link
+                        color: $color-Darkgreen-font
+                    a:visited
+                        color: $color-Darkgreen-font
+                    a:hover
+                        color: #7A9983
         .menuItem
             display: block
         .hamburger
@@ -31,6 +40,7 @@
             bottom: 0
             z-index: 4999
             padding-top: 4rem
+            background-color: $theme
         
         //JS class 
         .menuVisability
@@ -38,17 +48,4 @@
 
 /*Desctop
 
-        nav
-            ul
-                //display: flex
-                //flex-flow: row
-                li
-                    list-style-type: none
-                    a
-                        text-decoration: none
-                    a:link
-                        color: $color-Darkgreen-font
-                    a:visited
-                        color: $color-Darkgreen-font
-                    a:hover
-                        color: #7A9983
+        
