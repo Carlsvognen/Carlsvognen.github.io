@@ -3,20 +3,21 @@
 const globalNav = document.querySelector(".globalNav");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger = document.querySelector(".hamburger");
-const openOpt = document.querySelector(".openOpt");
-const closeOpt = document.querySelector(".closeOpt");
+const menuIcon = document.querySelector(".menuIcon");
+const closeIcon = document.querySelector(".closeIcon");
 
 function toggleMenu() {
     if (globalNav.classList.contains("menuVisability")){
         globalNav.classList.remove("menuVisability");
-        closeOpt.style.display = "none";
-        openOpt.style.display = "block";
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
     } else {
         globalNav.classList.add("menuVisability");
-        closeOpt.style.display = "block";
-        openOpt.style.display = "none";
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
     }
 }
+
 hamburger.addEventListener("click", toggleMenu);
 
 menuItems.forEach(
