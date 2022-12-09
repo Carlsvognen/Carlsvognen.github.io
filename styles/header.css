@@ -2,10 +2,7 @@
   /* line 5, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
   header {
     background: #021F06;
-    color: #E6E6E6;
-    grid-template-columns: 80vw 20vw;
-    grid-template-rows: 10vh 20vh;
-    grid-template-areas: "emptySpace1 hamburger" "Heading emptySpace2"; }
+    color: #E6E6E6; }
     /* line 25, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
     header .hamburger {
       background-color: #021F06; }
@@ -93,7 +90,12 @@
       z-index: 4999; }
     /* line 84, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuVisability {
-      transform: translateY(0); } }
+      transform: translateY(0); }
+  /* line 86, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+  header {
+    grid-template-columns: 80vw 20vw;
+    grid-template-rows: 10vh 20vh;
+    grid-template-areas: "emptySpace1 hamburger" "Heading emptySpace2"; } }
 
 /*Desctop */
 
