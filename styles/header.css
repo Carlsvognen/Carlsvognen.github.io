@@ -25,7 +25,7 @@
       list-style-type: none; }
       /* line 20, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
       header nav ul li {
-        margin-bottom: 2vh;
+        margin: 1vh 0 1vh 0;
         font: 2em "Century Gothic", serif; }
       /* line 23, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
       header nav ul a {
