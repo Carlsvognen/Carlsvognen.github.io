@@ -65,7 +65,7 @@
       padding: 2vh 0 2vh 0; }
     /* line 53, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .hamburger {
-      justify-items: end;
+      margin: auto;
       position: fixed;
       z-index: 5000;
       border: none;
