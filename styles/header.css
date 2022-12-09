@@ -58,6 +58,7 @@
       left: 0;
       rigth: 0;
       bottom: 0;
+      width: 100vw;
       z-index: 4999;
       padding: 10vh 5vw 5vh 5vw; }
     /* line 50, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
