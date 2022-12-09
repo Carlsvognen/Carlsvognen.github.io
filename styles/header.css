@@ -69,13 +69,12 @@
       position: fixed;
       z-index: 5000;
       border: none;
-      padding-right: 1vw;
       right: 0;
       cursor: pointer; }
-    /* line 61, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 60, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .closeOpt {
       display: none; }
-    /* line 63, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 62, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .globalNav {
       display: flex;
       flex-flow: column;
@@ -89,7 +88,7 @@
       bottom: 0;
       width: 100vw;
       z-index: 4999; }
-    /* line 78, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
+    /* line 77, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuVisability {
       transform: translateY(0); } }
 
