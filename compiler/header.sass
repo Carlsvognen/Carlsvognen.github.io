@@ -4,15 +4,19 @@
 @media only screen and (max-width: 1000px)
     header
         @include theme($theme: $color-theme-Darkgreen)
-        display: flex
-        flex-flow: row
-        height: 10vh
-        padding: 2vh 3vw 2vh 3vw
+        //display: flex
+        //flex-flow: row
+        grid-template-columns: 80vw 20vw
+        grid-template-rows: 10vh 20vh
+        grid-template-areas: "emptySpace1 hamburger" "Heading emptySpace2"
+        //height: 10vh
+        //padding: 2vh 3vw 2vh 3vw
         h1
             text-align: left
             font: $font-size-normal $font-heading
             font-size: $font-size-normal
-            width: 74vw
+            padding: 5vh 0 0 3vw
+            //width: 74vw
         nav
             ul
                 margin: auto 
@@ -51,7 +55,8 @@
             display: block
             padding: 2vh 0 2vh 0
         .hamburger
-            margin-right: 5vw
+            //margin-right: 5vw
+            margin: auto
             position: fixed
             z-index: 5000
             border: none
