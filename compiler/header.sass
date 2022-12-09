@@ -4,7 +4,6 @@
 @media only screen and (max-width: 1000px)
     header
         @include theme($theme: $color-theme-Darkgreen)
-        padding: 4vh 3vw 4vh 3vw
         display: flex
         flex-flow: row
         h1
@@ -51,13 +50,13 @@
             z-index: 5000
             border: none
             padding-rigth: 1vw
-            rigth: 0
+            right: 0
             cursor: pointer
         .closeOpt
             display: none
         .globalNav
             display: flex
-
+            flex-flow: column
             align-items: center
             position: fixed
             transform: translateY(-100%)
@@ -68,7 +67,7 @@
             bottom: 0
             width: 100vw
             z-index: 4999
-            padding: 10vh 5vw 5vh 5vw
+            //padding: 10vh 5vw 5vh 5vw
         //JS class 
         .menuVisability
             transform: translateY(0)
