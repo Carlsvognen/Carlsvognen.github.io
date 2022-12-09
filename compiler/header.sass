@@ -10,9 +10,12 @@
         flex-flow: row
         h1
             text-align: left
+            font-size: $font-size-large
         nav
             ul
                 list-style-type: none
+                li
+                    font-size: $font-size-large
                 a
                     text-decoration: none
                 a:link
@@ -37,6 +40,9 @@
         .closeOpt
             display: none
         .globalNav
+            display: flex
+            flex-flow: columns
+            align-items: center
             position: fixed
             transform: translateY(-100%)
             transition: transform 0.2s
