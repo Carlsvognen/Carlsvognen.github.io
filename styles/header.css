@@ -15,7 +15,7 @@
     /* line 10, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header h1 {
       text-align: left;
-      font-size: 3em; }
+      font-size: 2em; }
     /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav ul {
       list-style-type: none; }
@@ -74,7 +74,6 @@
     /* line 58, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .globalNav {
       display: flex;
-      flex-flow: columns;
       align-items: center;
       position: fixed;
       transform: translateY(-100%);
