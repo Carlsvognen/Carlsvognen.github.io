@@ -54,8 +54,8 @@
         transform: scaleX(1); }
     /* line 43, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav img {
-      width: 5vw;
-      height: 5vh; }
+      width: 15vw;
+      height: 15vh; }
     /* line 46, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .menuItem {
       display: block;
