@@ -3,7 +3,7 @@ $font-heading-span: 'Baguet Script',script
 $font-body: Helvetica,sans-serif
 //$font-body-span: ,sans-serif
 
-$font-size-large: 4em
+$font-size-large: 3em
 $font-size-normal: 2em
 $font-size-small: 1em
 
@@ -16,8 +16,12 @@ $font-accent-color: #FF30F1
 
 
 @mixin theme($theme: $color-theme-Darkgreen)
+    $color-primary: $color-theme-Darkgreen
+    $color-accent-One: $color-Darkgreen-purpel
+    $color-accent-Two: $color-Darkgreen-brown
+    $font-color: $color-Darkgreen-font
     background: $theme
-    color: $color-Darkgreen-font
+    color: $font-color
     .hamburger
         background-color: $theme
     .globalNav
