@@ -5,8 +5,8 @@
 		"../compiler/index.sass"
 	],
 	"sourcesContent": [
-		"body {\n    backg {} }\n"
+		"body {\n    background-image: url('../img/half-moon.svg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover; }\n"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,2BAA2B;EAC7C,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK,GAAG"
 }
