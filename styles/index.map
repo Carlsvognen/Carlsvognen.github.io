@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../compiler/index.sass"
+	],
+	"sourcesContent": [
+		"body {\n    backg {} }\n"
+	],
+	"names": [],
+	"mappings": ""
+}
