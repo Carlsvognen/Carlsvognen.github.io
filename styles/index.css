@@ -12,15 +12,18 @@
   /*As found on Fontsquirrel, downloaded 13.12.2022 */
   /*https://www.fontsquirrel.com/fonts/DymaxionScript?q%5Bterm%5D=retro&q%5Bsearch_check%5D=Y */ }
 
+/*@mixin theme($theme: $color-theme-Darkgreen)
+    $color-primary: $color-theme-Darkgreen
+    $color-accent-One: $color-Darkgreen-purpel
+    $color-accent-Two: $color-Darkgreen-brown
+    $font-color: $color-Darkgreen-font
+    background: $theme
+    color: $font-color
+    .hamburger
+        background-color: $theme
+    .globalNav
+        background-color: $theme */
 @media only screen and (max-width: 1000px) {
-  background: #021F06;
-  color: #E6E6E6;
-  /* line 39, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-  .hamburger {
-    background-color: #021F06; }
-  /* line 41, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
-  .globalNav {
-    background-color: #021F06; }
   /* line 6, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
   main {
     background-image: url("../img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.svg");
