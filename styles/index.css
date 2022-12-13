@@ -35,7 +35,7 @@
     /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main section {
       display: flex;
-      flex-flow: columns;
+      flex-flow: column;
       align-items: center;
       padding-top: 20vh;
       background-image: url("../img/neonContainerBorder.svg");
