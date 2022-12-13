@@ -29,38 +29,42 @@
     background-image: url("../img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 70% 70%;
     background-color: #021F06;
     height: 90vh; }
     /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main section {
       display: flex;
+      flex-flow: columns;
       align-items: center;
-      padding-top: 20vh;
-      background-image: url("../img/neonContainerBorder.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain; }
-    /* line 24, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
-    main section:after h1 {
-      text-align: center;
-      font-family: "stacker", "Century Gothic", serif;
-      font-size: 3em;
-      color: #FF30F1;
-      text-shadow: 0px 2px 55px rgba(255, 103, 252, 0.5);
-      border: 3px dashed #8d1d85;
-      width: 85vw; }
-    /* line 32, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
-    main section:after #firstP {
-      text-align: center;
-      font-family: "Century Gothic", serif;
-      font-size: 1em;
-      color: #E6E6E6; }
-    /* line 37, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
-    main section:after #secondP {
-      text-align: center;
-      font-family: dymaxionScript, serif;
-      font-size: 1em;
-      color: dymaxionScript, serif; } }
+      padding-top: 20vh; }
+      /* line 19, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      main section h1 {
+        text-align: center;
+        font-family: "stacker", "Century Gothic", serif;
+        font-size: 3em;
+        color: #FF30F1;
+        text-shadow: 0px 2px 55px rgba(255, 103, 252, 0.5);
+        border: 3px dashed #8d1d85;
+        width: 85vw;
+        before-width: 85vw;
+        before-height: 50vh;
+        before-background: url("../img/neonContainerBorder.svg");
+        before-background-repeat: no-repeat;
+        before-background-position: center;
+        before-position: absolute;
+        before-display: inline-block; }
+      /* line 36, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      main section #firstP {
+        text-align: center;
+        font-family: "Century Gothic", serif;
+        font-size: 1em;
+        color: #E6E6E6; }
+      /* line 41, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      main section #secondP {
+        text-align: center;
+        font-family: dymaxionScript, serif;
+        font-size: 1em;
+        color: dymaxionScript, serif; } }
 
 /*# sourceMappingURL=index.css.map */
