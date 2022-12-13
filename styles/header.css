@@ -1,3 +1,8 @@
+@font-face {
+  font-family: stacker;
+  src: url("stacker-font/Stacker-jE03l.ttf") format("truetype");
+  /*license: freeware*/ }
+
 @media only screen and (max-width: 1000px) {
   /* line 5, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
   header {
@@ -6,16 +11,16 @@
     display: flex;
     flex-flow: columns;
     padding: 2vh 3vw 2vh 3vw; }
-    /* line 25, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
+    /* line 31, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
     header .hamburger {
       background-color: #021F06; }
-    /* line 27, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
+    /* line 33, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
     header .globalNav {
       background-color: #021F06; }
     /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header h1 {
       text-align: left;
-      font: 2em "Century Gothic", serif;
+      font: 2em "stacker", "Century Gothic", serif;
       font-size: 2em; }
     /* line 23, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav ul {
@@ -25,7 +30,7 @@
       /* line 27, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
       header nav ul li {
         margin: 1vh 0 1vh 0;
-        font: 2em "Century Gothic", serif; }
+        font: 2em "stacker", "Century Gothic", serif; }
       /* line 30, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
       header nav ul a {
         text-decoration: none; }
