@@ -34,13 +34,14 @@
     height: 90vh; }
     /* line 14, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main section {
+      display: flex;
+      align-items: center;
       padding-top: 20vh;
-      margin: auto;
       background-image: url("../img/neonContainerBorder.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain; }
-      /* line 21, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      /* line 22, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
       main section h1 {
         text-align: center;
         font-family: "stacker", "Century Gothic", serif;
@@ -49,13 +50,13 @@
         text-shadow: 0px 2px 55px rgba(255, 103, 252, 0.5);
         border: 3px dashed #8d1d85;
         width: 85vw; }
-      /* line 29, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      /* line 30, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
       main section #firstP {
         text-align: center;
         font-family: "Century Gothic", serif;
         font-size: 1em;
         color: #E6E6E6; }
-      /* line 34, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      /* line 35, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
       main section #secondP {
         text-align: center;
         font-family: dymaxionScript, serif;
