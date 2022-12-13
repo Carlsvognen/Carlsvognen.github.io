@@ -28,13 +28,11 @@
   header {
     background-color: #021F06;
     color: #E6E6E6;
-    display: flex;
-    flex-flow: columns;
     height: 10vh;
     padding: 2vh 3vw 2vh 3vw; }
     /* line 16, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header nav {
-      background-color: #021F06; }
+      background: #021F06; }
       /* line 18, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
       header nav ul {
         margin: auto;
