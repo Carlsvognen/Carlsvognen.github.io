@@ -8,17 +8,13 @@
         //src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Full_Moon_on_August_22%2C_2021_-_Flickr_-_gjdonatiello.jpg/640px-Full_Moon_on_August_22%2C_2021_-_Flickr_-_gjdonatiello.jpg
         background-repeat: no-repeat
         background-position: center
-        background-size: contain
+        background-size: 70% 70%
         background-color: $color-theme-Darkgreen
         height: 90vh
         section
             display: flex
             align-items: center
             padding-top: 20vh
-            background-image: url('../img/neonContainerBorder.svg')
-            background-repeat: no-repeat
-            background-position: center
-            background-size: contain
             h1
                 text-align: center
                 font-family: $font-heading, $font-heading-backup
@@ -27,6 +23,15 @@
                 text-shadow: 0px 2px 55px rgba(255, 103, 252, 0.50)
                 border: 3px dashed #8d1d85
                 width: 85vw
+                &:after
+                    content:''
+                    width: 85vw
+                    height: 50vh
+                    background: url('../img/neonContainerBorder.svg')
+                    background-repeat: no-repeat
+                    background-position: center
+                    position: absolute
+                    display: inline-block
             #firstP
                 text-align: center
                 font-family: $font-heading-backup
