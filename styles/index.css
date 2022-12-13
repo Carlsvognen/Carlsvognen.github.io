@@ -33,7 +33,7 @@
     background-color: #021F06;
     height: 90vh; }
     /* line 15, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
-    main h1 {
+    main section h1 {
       background-image: url("../img/neonContainerBorder.svg");
       background-repeat: no-repeat;
       background-position: center;
@@ -46,13 +46,13 @@
       border: 3px dashed #8d1d85;
       width: 85%;
       padding-top: 35vh; }
-    /* line 29, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 28, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main #firstP {
       text-align: center;
       font-family: "Century Gothic", serif;
       font-size: 1em;
       color: #E6E6E6; }
-    /* line 34, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 33, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main #secondP {
       text-align: center;
       font-family: dymaxionScript, serif;
