@@ -80,11 +80,11 @@
     /* line 54, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .hamburger {
       background-color: #021F06;
-      align-items: right;
       position: fixed;
       z-index: 5000;
       border: none;
       right: 0;
+      padding-right: 5vw;
       cursor: pointer; }
     /* line 62, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/header.sass */
     header .closeOpt {
