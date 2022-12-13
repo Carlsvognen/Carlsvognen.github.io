@@ -23,12 +23,13 @@
     background-color: #021F06; }
   /* line 6, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
   main {
-    background-image: url("../img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.jpg");
+    background-image: url("../img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    background-color: #021F06;
     height: 80vh; }
-    /* line 12, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 15, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main h1 {
       background-image: url("../img/neonContainerBorder.svg");
       background-repeat: no-repeat;
@@ -42,12 +43,12 @@
       border: 3px dashed #8d1d85;
       width: 85%;
       margin-top: 35vh; }
-    /* line 26, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 29, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main #firstP {
       text-align: center;
       font-family: "Century Gothic", serif;
       color: #E6E6E6; }
-    /* line 30, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 33, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main #secondP {
       text-align: center;
       font-family: dymaxionScript, serif;
