@@ -27,14 +27,15 @@
   /* line 6, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
   main {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
     background-image: url("../img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70% 70%;
+    background-size: 60% 60%;
     background-color: #021F06;
     height: 90vh; }
-    /* line 16, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 17, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main section {
       display: flex;
       flex-flow: column;
@@ -42,10 +43,10 @@
       padding-top: 20vh;
       background-image: url("../img/neonContainerBorder.svg");
       background-repeat: no-repeat;
-      background-position: cover;
-      background-size: 70% 70%;
+      background-position: center;
+      background-size: 60% 60%;
       position: absolute; }
-      /* line 26, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+      /* line 27, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
       main section h1 {
         text-align: center;
         font-family: "stacker", "Century Gothic", serif;
@@ -54,13 +55,13 @@
         text-shadow: 0px 2px 55px rgba(255, 103, 252, 0.5);
         border: 3px dashed #8d1d85;
         width: 85vw; }
-    /* line 34, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 35, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main #firstP {
       text-align: center;
       font-family: "Century Gothic", serif;
       font-size: 1em;
       color: #E6E6E6; }
-    /* line 39, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    /* line 40, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main #secondP {
       text-align: center;
       font-family: dymaxionScript, serif;
