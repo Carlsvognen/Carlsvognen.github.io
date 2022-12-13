@@ -1,6 +1,6 @@
 @font-face {
   font-family: stacker;
-  src: url("stacker-font/Stacker-jE03l.ttf") format("truetype");
+  src: url("fonts/stacker-font/Stacker-jE03l.ttf") format("truetype");
   /*license: freeware*/ }
 
 @media only screen and (max-width: 1000px) {
@@ -14,7 +14,7 @@
     background-color: #021F06; }
   /* line 6, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
   main {
-    background-image: url("img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.jpg");
+    background-image: url("../img/Full_Moon_on_August_22,_2021_-_Flickr_-_gjdonatiello.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto; }
