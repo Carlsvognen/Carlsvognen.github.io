@@ -3,15 +3,22 @@
   src: url("fonts/stacker-font/Stacker-jE03l.ttf") format("truetype");
   /*By Almarkhatype, License: Freeware, Non-Commercial. */
   /*As found on Fontspace, downloaded 12.12.2022 */
-  /*https://www.fontspace.com/booter-font-f319Fronspace */ }
+  /*https://www.fontspace.com/stacker-font-f82510 */ }
+
+@font-face {
+  font-family: dymaxionScript;
+  src: url("fonts/DymaxionScript/DymaxionScript.ttf") format("truetype");
+  /*By Almarkhatype, Font License v1.00 */
+  /*As found on Fontsquirrel, downloaded 13.12.2022 */
+  /*https://www.fontsquirrel.com/fonts/DymaxionScript?q%5Bterm%5D=retro&q%5Bsearch_check%5D=Y */ }
 
 @media only screen and (max-width: 1000px) {
   background: #021F06;
   color: #E6E6E6;
-  /* line 32, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
+  /* line 39, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
   .hamburger {
     background-color: #021F06; }
-  /* line 34, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
+  /* line 41, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/_base.sass */
   .globalNav {
     background-color: #021F06; }
   /* line 6, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
@@ -20,7 +27,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    length: 80vh; }
+    height: 80vh; }
     /* line 12, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
     main h1 {
       text-align: center;
@@ -29,6 +36,19 @@
       color: #FF30F1;
       text-shadow: 0px 2px 15px rgba(255, 103, 252, 0.5);
       border: 3px dashed #8d1d85;
-      border-radius: 25% 10%; } }
+      border-radius: 25% 10%;
+      width: 85%;
+      margin-top: 35vh; }
+    /* line 23, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    main #firstP {
+      text-align: center;
+      font-family: "Century Gothic", serif;
+      color: #E6E6E6; }
+    /* line 27, ../../Dokumenter/Github/Carlsvognen.github.io/compiler/index.sass */
+    main #secondP {
+      text-align: center;
+      font-family: dymaxionScript, serif;
+      font-size: 1em;
+      color: #FF30F1; } }
 
 /*# sourceMappingURL=index.css.map */
